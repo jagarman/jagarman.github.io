@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+header {
+    width: 100vw;
+    /* height: 20%; */
+    background-color: white;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.top_content{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+
+  }
+  .links {
+    display: flex;
+  }
+  h1 {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+    padding: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0 auto;
+  }
+  nav {
+    display: inline;
+    text-align: center;
+    vertical-align: middle; 
+  }
+  .nav_list {
+    list-style-type: none;
+    display: inline;
+  }
+  .link {
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 10px;
+  }
+  .content {
+      background: url(../images/diagonales_decalees.png) repeat;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex: 1 0 auto;
+  }
+ .about_me {
+    width: 960px;
+    flex: 1 0 auto;
+    background-color: white;
+    margin: 80px auto;
+    padding: 10px 5px 10px 5px;
+
+  }
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid #4aaaa5;
+    margin: 0 auto;
+  }
+  .josh_garman_photo {
+      float: left;
+      padding: 15px 10px 20px 10px;
+  }
+  P {
+      padding: 8px;
+      margin: 0 auto;
+  }
+  .footer_flex {
+    clear: both;
+    flex-shrink: 0;
+  }
+  .footer {
+    background-color: gray;
+    border-top: 8px solid #4aaaa5;
+  }
+  .footer_content {
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 20px;
+  }
+  
